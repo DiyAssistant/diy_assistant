@@ -17,6 +17,7 @@ gem 'pg_search'
 gem 'aws-sdk'
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'byebug'
 end
 
