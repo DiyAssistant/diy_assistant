@@ -9,6 +9,6 @@ feature "instructions" do
     click_button 'Publish'
 
     expect(page).to have_content "making my own desk"
-    expect(current_path).to eq "/instructions/1"
+    expect(current_path).to eq "/instructions/2"
   end
 end
