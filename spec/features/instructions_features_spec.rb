@@ -5,6 +5,7 @@ feature "instructions" do
     click_link "Create guide"
     fill_in "Title" , with: "How to build a desk"
     fill_in "Description", with: "making my own desk"
+    select 'Technology', from: 'instruction_category_id'
     click_button 'Publish'
 
     expect(page).to have_content "making my own desk"

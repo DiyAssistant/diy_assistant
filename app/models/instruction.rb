@@ -6,4 +6,5 @@ class Instruction < ActiveRecord::Base
   :using => {:tsearch => {:any_word => true, :dictionary => "english"}}
 
   belongs_to :user
+  belongs_to :category
 end
