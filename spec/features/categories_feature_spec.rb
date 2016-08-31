@@ -20,7 +20,15 @@ feature 'category' do
         categories.each do |category|
           expect(page).to have_link category
         end
+    end
 
+    scenario 'it should show a list of instructions avaiable for that category' do
+      sign_up
+      create_a_guide(title: 'Make a macbook')
+      visit '/'
+      click_link 'Technology'
+      expect(current_path).to eq '/category/technology'
+      expect(page).to have_content 'Make a macbook'
     end
   end
 end
