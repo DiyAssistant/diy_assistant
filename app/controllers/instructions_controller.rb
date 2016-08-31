@@ -7,7 +7,6 @@ class InstructionsController < ApplicationController
   def create
     @instruction = current_user.instructions.create(instruction_params)
     redirect_to instruction_path(@instruction)
-
   end
 
   def show
