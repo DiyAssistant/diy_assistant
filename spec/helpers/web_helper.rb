@@ -5,3 +5,12 @@ def sign_up
   fill_in 'Password confirmation', with: 'Password'
   click_button 'Sign up'
 end
+
+def create_a_guide(title: 'How to build a desk',
+                    description: 'making my own desk')
+  visit '/'
+  click_link "Create guide"
+  fill_in "Title" , with: title
+  fill_in "Description", with: description
+  click_button 'Publish'
+end

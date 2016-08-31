@@ -7,10 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= ⁠⁠⁠⁠console if ENV['RAILS_ENV']=='development' %>
   <%= link_to 'Create guide', new_instruction_path  %>
   <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
+   <form action = "/search", method = "get">
+     <%= label_tag(:q, 'Search for:') %>
+     <%= text_field_tag(:q) %>
+     <%= submit_tag('Search', name: nil) %>
+   </form>
 
 <%= yield %>
 
