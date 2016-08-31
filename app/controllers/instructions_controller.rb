@@ -1,5 +1,4 @@
 class InstructionsController < ApplicationController
-
   def new
     @instruction = Instruction.new
   end
@@ -16,6 +15,6 @@ class InstructionsController < ApplicationController
   private
 
   def instruction_params
-    params.require(:instruction).permit(:title, :description)
+    params.require(:instruction).permit(:title, :description, :image)
   end
 end
