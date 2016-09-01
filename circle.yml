@@ -1,6 +1,6 @@
 dependencies:
   pre:
+    - rake db:seed
+    - rake db:seed RAILS_ENV=test 
     - rake db:reset
     - rake db:reset RAILS_ENV=test
-    - rake db:seed
-    - rake db:seed RAILS_ENV=test
