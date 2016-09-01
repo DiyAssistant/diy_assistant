@@ -1,8 +1,8 @@
 class SearchesController < ApplicationController
 
   def index
-    @instructions = Instruction.search_all params[:q]
-    @instructions = @instructions.page(params[:page]).per(5)
+    @instructions = Instruction.search_all(params[:q])
+                            .paginate(page: params[:page], per_page: 5)
   end
 
 end

@@ -1,4 +1,5 @@
 <% @instructions.each do |instruction| %>
   <h2><%= instruction.title %></h2>
 <% end %>
-<%= paginate @instructions %>
+
+<%= will_paginate @instructions %>
