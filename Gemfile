@@ -12,11 +12,12 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'paperclip'
 gem 'pg_search'
-
+gem 'aws-sdk'
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'byebug'
 end
 
@@ -31,5 +32,4 @@ group :test do
   gem 'rspec-collection_matchers'
   gem 'rspec-rails'
   gem 'capybara'
-
 end

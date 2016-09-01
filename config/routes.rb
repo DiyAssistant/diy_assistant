@@ -6,5 +6,6 @@ Rails.application.routes.draw do
 
   resources :instructions
   resources :searches, :path => '/search'
+  resources :categories, :path => '/category'
 
 end

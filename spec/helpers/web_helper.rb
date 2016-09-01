@@ -12,5 +12,6 @@ def create_a_guide(title: 'How to build a desk',
   click_link "Create guide"
   fill_in "Title" , with: title
   fill_in "Description", with: description
+  select 'Technology', from: 'instruction_category_id'
   click_button 'Publish'
 end

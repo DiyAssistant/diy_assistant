@@ -1,4 +1,6 @@
-
   <%= @instruction.title %>
   <br>
   <%= @instruction.description %>
+  <br>
+  <%= image_tag @instruction.image.url(:thumb) %>
+  Category: <%= @instruction.category.name %>
