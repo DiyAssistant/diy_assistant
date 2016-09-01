@@ -10,3 +10,5 @@
   <br>
   <%= f.submit 'Publish' %>
 <% end %>
+
+<%= @instruction.errors.full_messages.first if @instruction && @instruction.errors.any? %>
