@@ -32,4 +32,11 @@ feature 'instructions' do
     expect(page).to have_content 'Title has already been taken'
     expect(current_path).to eq '/instructions'
   end
+
+  context 'Not signed in user' do
+    scenario 'cannot see create a guide link' do
+      visit '/'
+      expect(page).not_to have_link 'Create a guide'
+    end
+  end
 end
