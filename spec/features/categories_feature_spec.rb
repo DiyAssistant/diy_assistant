@@ -9,7 +9,7 @@ feature 'category' do
       click_button 'Publish'
       expect(page).to have_content "making my own desk"
       expect(page).to have_content "Category: Technology"
-      expect(current_path).to eq "/instructions/1"
+      expect(current_path).to eq "/instructions/how-to-build-a-desk"
     end
   end
   context 'when the user visits the site' do

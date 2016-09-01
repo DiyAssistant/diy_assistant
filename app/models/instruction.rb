@@ -1,5 +1,9 @@
 class Instruction < ActiveRecord::Base
   include PgSearch
+  extend FriendlyId
+
+  friendly_id :title, use: :slugged
+
 
   pg_search_scope :search_all,
   :against => [:title, :description],

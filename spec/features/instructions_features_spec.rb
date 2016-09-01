@@ -8,7 +8,7 @@ feature 'instructions' do
     click_button 'Publish'
 
     expect(page).to have_content 'making my own desk'
-    expect(current_path).to eq '/instructions/3'
+    expect(current_path).to eq '/instructions/how-to-build-a-desk'
   end
 
   scenario 'is able to upload a pic with the instructions post' do
@@ -21,6 +21,6 @@ feature 'instructions' do
     click_button 'Publish'
 
     expect(page).to have_css('img')
-    expect(current_path).to eq '/instructions/4'
+    expect(current_path).to eq '/instructions/how-to-build-a-desk'
   end
 end
