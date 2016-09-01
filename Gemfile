@@ -21,6 +21,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
   gem 'better_errors'
+  gem 'coveralls', require: false
 end
 
 group :development do
