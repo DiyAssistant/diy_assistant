@@ -1,6 +1,7 @@
 dependencies:
   pre:
     - gem install rake
+    - bundle install
     - rake db:seed
     - rake db:seed RAILS_ENV=test 
     - rake db:reset
