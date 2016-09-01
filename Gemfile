@@ -20,7 +20,9 @@ gem 'friendly_id', '~> 5.1.0'
 group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
-  gem "better_errors"
+  gem 'better_errors'
+  gem 'simplecov', :require => false
+  gem 'coveralls', require: false
 end
 
 group :development do
@@ -34,4 +36,5 @@ group :test do
   gem 'rspec-collection_matchers'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'rake'
 end
