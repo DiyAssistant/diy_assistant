@@ -1,7 +1,7 @@
 <ul>
   <% @instructions.each do |instruction| %>
     <li>
-      <%= instruction.title %>
+      <%= link_to instruction.title, instruction %>
     </li>
   <% end %>
 </ul>
