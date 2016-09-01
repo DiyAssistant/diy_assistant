@@ -1,6 +1,7 @@
 class InstructionsController < ApplicationController
   def new
     @instruction = Instruction.new
+    @categories = Category.all
   end
 
   def create
@@ -15,6 +16,6 @@ class InstructionsController < ApplicationController
   private
 
   def instruction_params
-    params.require(:instruction).permit(:title, :description, :image)
+    params.require(:instruction).permit(:title, :description, :image, :category_id)
   end
 end
