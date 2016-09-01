@@ -2,7 +2,8 @@
 
 feature "User" do
   scenario "User is able to sign up" do
-    visit '/users/sign_up'
+    visit '/'
+    click_link 'Sign up'
     fill_in 'Email', with: 'test@test.co.uk'
     fill_in 'Password', with: 'Password'
     fill_in 'Password confirmation', with: 'Password'
@@ -13,7 +14,7 @@ feature "User" do
   scenario "User is able to log in" do
     sign_up
     click_link 'Sign out'
-    visit '/users/sign_in'
+    click_link 'Sign in'
     fill_in 'Email', with: 'test@test.co.uk'
     fill_in 'Password', with: 'Password'
     click_button 'Log in'
@@ -25,4 +26,7 @@ feature "User" do
     click_link 'Sign out'
     expect(page).to have_content('Signed out successfully')
   end
+
+
+
 end
