@@ -21,6 +21,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
   gem 'better_errors'
+  gem 'simplecov', :require => false
   gem 'coveralls', require: false
 end
 
