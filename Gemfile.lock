@@ -239,6 +239,7 @@ DEPENDENCIES
   pg (~> 0.15)
   pg_search
   rails (= 4.2.7.1)
+  rake
   rspec-collection_matchers
   rspec-rails
   sass-rails (~> 5.0)
