@@ -23,4 +23,13 @@ feature 'instructions' do
     expect(page).to have_css('img')
     expect(current_path).to eq '/instructions/how-to-build-a-desk'
   end
+
+  scenario "user can't add instructions with a duplicated name" do
+    sign_up
+    create_a_guide
+    create_a_guide
+
+    expect(page).to have_content 'Title has already been taken'
+    expect(current_path).to eq '/instructions'
+  end
 end

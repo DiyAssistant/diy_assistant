@@ -6,7 +6,12 @@ class InstructionsController < ApplicationController
 
   def create
     @instruction = current_user.instructions.create(instruction_params)
-    redirect_to instruction_path(@instruction)
+    if @instruction.save
+      redirect_to instruction_path(@instruction)
+    else
+      @categories = Category.all
+      render new_instruction_path
+    end
   end
 
   def show

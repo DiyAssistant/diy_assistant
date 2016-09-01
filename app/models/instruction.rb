@@ -3,6 +3,7 @@ class Instruction < ActiveRecord::Base
   extend FriendlyId
 
   friendly_id :title, use: :slugged
+  validates :title, uniqueness: true
 
 
   pg_search_scope :search_all,
