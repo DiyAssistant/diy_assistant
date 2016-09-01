@@ -19,6 +19,7 @@ gem 'aws-sdk'
 group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
+  gem "better_errors"
 end
 
 group :development do
