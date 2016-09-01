@@ -20,6 +20,7 @@ gem 'friendly_id', '~> 5.1.0'
 group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
+  gem "better_errors"
 end
 
 group :development do
