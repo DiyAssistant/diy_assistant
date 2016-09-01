@@ -17,7 +17,6 @@
      <%= text_field_tag(:q) %>
      <%= submit_tag('Search', name: nil) %>
    </form>
-<%= @instruction.errors.full_messages.first if @instruction && @instruction.errors.any? %>
 <%= yield %>
 
 </body>
