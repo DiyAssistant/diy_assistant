@@ -16,7 +16,8 @@ gem 'paperclip'
 gem 'pg_search'
 gem 'aws-sdk'
 gem 'friendly_id', '~> 5.1.0'
-# gem 'simplecov', :require => false
+
+gem 'will_paginate'
 
 group :development, :test do
   gem 'dotenv-rails'

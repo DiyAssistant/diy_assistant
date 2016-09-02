@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ogirginc/Developer/Makers/diy_assistant/spec/rails_helper.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -64,14 +64,14 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/environment.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/application.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/application.rb": [
         1,
         null,
         1,
@@ -108,12 +108,12 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/boot.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/environments/test.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/environments/test.rb": [
         1,
         null,
         null,
@@ -157,7 +157,7 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/assets.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -170,7 +170,7 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/backtrace_silencers.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -179,12 +179,12 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/cookies_serializer.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/devise.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -460,13 +460,13 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/filter_parameter_logging.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/friendly_id.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/friendly_id.rb": [
         null,
         null,
         null,
@@ -556,7 +556,7 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/inflections.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -574,18 +574,18 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/mime_types.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/session_store.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/initializers/wrap_parameters.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -601,7 +601,7 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/config/routes.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/config/routes.rb": [
         1,
         null,
         1,
@@ -614,7 +614,7 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/models/user.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/models/user.rb": [
         1,
         null,
         null,
@@ -624,27 +624,27 @@
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/helpers/application_helper.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/helpers/categories_helper.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/categories_helper.rb": [
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/helpers/home_helper.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/home_helper.rb": [
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/helpers/instructions_helper.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/instructions_helper.rb": [
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/helpers/searches_helper.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/searches_helper.rb": [
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/spec/support/database_cleaner.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/spec/support/database_cleaner.rb": [
         1,
         null,
         1,
@@ -652,7 +652,7 @@
         null,
         null,
         1,
-        10,
+        11,
         null,
         null,
         1,
@@ -660,15 +660,15 @@
         null,
         null,
         1,
-        10,
+        11,
         null,
         null,
         1,
-        10,
+        11,
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/spec/helpers/web_helper.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/spec/helpers/web_helper.rb": [
         1,
         8,
         8,
@@ -687,7 +687,7 @@
         4,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/spec/features/categories_feature_spec.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/spec/features/categories_feature_spec.rb": [
         1,
         1,
         1,
@@ -723,7 +723,7 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/spec/features/instructions_features_spec.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/spec/features/instructions_features_spec.rb": [
         1,
         1,
         1,
@@ -755,25 +755,32 @@
         1,
         1,
         null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/julia/RUBY/Ronin/diy_assistant/spec/features/search_feature_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/spec/features/search_feature_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/spec/features/users_management_spec.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/spec/features/users_management_spec.rb": [
         null,
         null,
         1,
@@ -807,29 +814,31 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/controllers/application_controller.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/home_controller.rb": [
+        1,
+        null,
+        1,
+        21,
+        null,
+        null,
+        null
+      ],
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/controllers/home_controller.rb": [
-        1,
-        null,
-        1,
-        20,
-        null,
-        null,
-        null
-      ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/models/category.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/models/category.rb": [
         1,
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/controllers/instructions_controller.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/instructions_controller.rb": [
         1,
+        1,
+        null,
         1,
         7,
         7,
@@ -856,7 +865,7 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/models/instruction.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/models/instruction.rb": [
         1,
         1,
         1,
@@ -876,7 +885,7 @@
         1,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/controllers/categories_controller.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/categories_controller.rb": [
         1,
         null,
         1,
@@ -885,7 +894,7 @@
         null,
         null
       ],
-      "/Users/ogirginc/Developer/Makers/diy_assistant/app/controllers/searches_controller.rb": [
+      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/searches_controller.rb": [
         1,
         null,
         1,
@@ -895,6 +904,6 @@
         null
       ]
     },
-    "timestamp": 1472802353
+    "timestamp": 1472806338
   }
 }
