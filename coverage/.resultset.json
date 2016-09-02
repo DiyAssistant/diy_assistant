@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/julia/RUBY/Ronin/diy_assistant/spec/rails_helper.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -64,14 +64,14 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/environment.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/application.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/application.rb": [
         1,
         null,
         1,
@@ -108,12 +108,12 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/boot.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/environments/test.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/environments/test.rb": [
         1,
         null,
         null,
@@ -157,7 +157,7 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/assets.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -170,7 +170,7 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/backtrace_silencers.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -179,12 +179,12 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/cookies_serializer.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/devise.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -194,6 +194,7 @@
         null,
         null,
         null,
+        1,
         null,
         null,
         null,
@@ -460,13 +461,13 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/filter_parameter_logging.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/friendly_id.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/friendly_id.rb": [
         null,
         null,
         null,
@@ -556,7 +557,7 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/inflections.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -574,18 +575,18 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/mime_types.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/session_store.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/initializers/wrap_parameters.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -601,50 +602,56 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/config/routes.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/config/routes.rb": [
         1,
         null,
         1,
         null,
         1,
         null,
+        1,
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/models/user.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/models/user.rb": [
         1,
         null,
         null,
         1,
         null,
         null,
+        1,
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/application_helper.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/categories_helper.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/helpers/categories_helper.rb": [
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/home_helper.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/helpers/home_helper.rb": [
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/instructions_helper.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/helpers/instructions_helper.rb": [
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/helpers/searches_helper.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/helpers/likes_helper.rb": [
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/spec/support/database_cleaner.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/helpers/searches_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/support/database_cleaner.rb": [
         1,
         null,
         1,
@@ -652,7 +659,7 @@
         null,
         null,
         1,
-        11,
+        12,
         null,
         null,
         1,
@@ -660,15 +667,15 @@
         null,
         null,
         1,
-        11,
+        12,
         null,
         null,
         1,
-        11,
+        12,
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/spec/helpers/web_helper.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/helpers/web_helper.rb": [
         1,
         8,
         8,
@@ -687,7 +694,7 @@
         4,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/spec/features/categories_feature_spec.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/features/categories_feature_spec.rb": [
         1,
         1,
         1,
@@ -723,7 +730,7 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/spec/features/instructions_features_spec.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/features/instructions_features_spec.rb": [
         1,
         1,
         1,
@@ -767,7 +774,38 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/spec/features/search_feature_spec.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/features/like_feature_spec.rb": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/features/pagination_feature_spec.rb": [
+        1,
+        1,
+        1,
+        null,
+        10,
+        10,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/features/search_feature_spec.rb": [
         1,
         1,
         1,
@@ -780,7 +818,7 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/spec/features/users_management_spec.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/spec/features/users_management_spec.rb": [
         null,
         null,
         1,
@@ -814,28 +852,28 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/home_controller.rb": [
-        1,
-        null,
-        1,
-        21,
-        null,
-        null,
-        null
-      ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/application_controller.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/models/category.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/controllers/home_controller.rb": [
+        1,
+        null,
+        1,
+        22,
+        null,
+        null,
+        null
+      ],
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/models/category.rb": [
         1,
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/instructions_controller.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/controllers/instructions_controller.rb": [
         1,
         1,
         null,
@@ -865,14 +903,15 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/models/instruction.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/models/instruction.rb": [
         1,
         1,
-        1,
-        null,
         1,
         1,
         null,
+        1,
+        1,
+        null,
         null,
         1,
         null,
@@ -880,12 +919,40 @@
         null,
         1,
         1,
+        7,
+        null,
         null,
         1,
         1,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/categories_controller.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/models/with_user_association_extension.rb": [
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/models/like.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/controllers/categories_controller.rb": [
         1,
         null,
         1,
@@ -894,16 +961,17 @@
         null,
         null
       ],
-      "/Users/julia/RUBY/Ronin/diy_assistant/app/controllers/searches_controller.rb": [
+      "/Users/newuser/JobVeta Google Drive/Makers_Academy/MainCourse/Week9/diy_assistant/app/controllers/searches_controller.rb": [
         1,
         null,
         1,
-        1,
+        3,
+        null,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1472806338
+    "timestamp": 1472820974
   }
 }
