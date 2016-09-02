@@ -16,10 +16,13 @@ gem 'paperclip'
 gem 'pg_search'
 gem 'aws-sdk'
 gem 'friendly_id', '~> 5.1.0'
+# gem 'simplecov', :require => false
 
 group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
+  gem 'better_errors'
+  gem 'coveralls', require: false
 end
 
 group :development do
@@ -33,4 +36,5 @@ group :test do
   gem 'rspec-collection_matchers'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'rake'
 end
