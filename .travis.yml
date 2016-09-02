@@ -19,4 +19,4 @@ script:
 
 after_success:
   - gem install coveralls
-  - CI=true TRAVIS=true coveralls --verbose
+  - CI=true TRAVIS=true coveralls
