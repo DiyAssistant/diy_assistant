@@ -6,8 +6,6 @@ require File.expand_path('../config/application', __FILE__)
 Rails.application.load_tasks
 
 require 'rspec/core/rake_task'
-
-RSpec::Core::RakeTask.new do |t|
-  t.rspec_opts = ["-c", "-f progress", "-r ./spec/spec_helper.rb"]
-  t.pattern = 'spec/**/*_spec.rb'
-end
+task :default => :spec
+RSpec::Core::RakeTask.new
+rescue LoadError
