@@ -31,6 +31,10 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'rake'
+end
+
 group :test do
   gem 'database_cleaner'
   gem 'shoulda-matchers'
