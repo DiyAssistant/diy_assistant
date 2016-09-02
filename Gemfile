@@ -17,10 +17,14 @@ gem 'pg_search'
 gem 'aws-sdk'
 gem 'friendly_id', '~> 5.1.0'
 
+gem 'bootstrap-sass'
+
+
 group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
   gem "better_errors"
+
 end
 
 group :development do
