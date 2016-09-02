@@ -16,12 +16,12 @@ gem 'paperclip'
 gem 'pg_search'
 gem 'aws-sdk'
 gem 'friendly_id', '~> 5.1.0'
+# gem 'simplecov', :require => false
 
 group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
   gem 'better_errors'
-  gem 'simplecov', :require => false
   gem 'coveralls', require: false
 end
 

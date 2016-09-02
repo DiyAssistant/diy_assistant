@@ -17,4 +17,6 @@ script:
   - bundle exec rake db:reset RAILS_ENV=test
   # - bundle exec rake spec
 
-
+after_success:
+  - gem install coveralls
+  - CI=true TRAVIS=true coveralls report
