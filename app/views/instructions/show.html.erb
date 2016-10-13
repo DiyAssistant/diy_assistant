@@ -5,6 +5,11 @@
   <%= image_tag @instruction.image.url(:thumb) %>
   Category: <%= @instruction.category.name %>
   <br>
+  Total <%= @instruction.likes.count %> likes
+  <br />
+  <%= form_tag likes_path(@instruction), :method => :post %>
+  <%= submit_tag 'Like' %>
+
 
   <div id="disqus_thread"></div>
 
