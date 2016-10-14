@@ -19,11 +19,19 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'rake'
 gem 'will_paginate'
 
+gem 'bootstrap-sass'
+
+
 group :development, :test do
   gem 'dotenv-rails'
   gem 'byebug'
+<<<<<<< HEAD
+  gem "better_errors"
+
+=======
   gem 'better_errors'
   gem 'coveralls', require: false
+>>>>>>> c6245c0ab668a3fa0d73c42e3dc0bec0d37e0075
 end
 
 group :development do

@@ -8,16 +8,22 @@
 </head>
 <body>
 
+  <ul class="nav nav-pills">
+    <li role="presentation" ><a> <%= link_to 'Home', root_path%> </a></li>
+    <li role="presentation"><a> <%= link_to 'Create guide', new_instruction_path %></a></li>
+    <% if current_user %>
+
+      <li role="presentation"><a> <%= link_to 'Sign out', destroy_user_session_path, method: :delete %></a></li>
+
+    <% else%>
+      <li role="presentation"><a> <%= link_to 'Sign in', new_user_session_path %></a></li>
+      <li role="presentation"><a> <%= link_to 'Sign up', new_user_registration_path %></a></li>
+    <%end%>
+  </ul>
+
+
 
   <% console if ENV['RAILS_ENV']=='development' %>
-  <%= link_to 'Create guide', new_instruction_path  %>
-
-  <% if current_user %>
-    <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
-  <%else%>
-    <%= link_to 'Sign in', new_user_session_path %>
-    <%= link_to 'Sign up', new_user_registration_path %>
-  <% end %>
 
 
   <p class="notice"><%= notice %></p>
@@ -28,7 +34,9 @@
      <%= submit_tag('Search', name: nil) %>
    </form>
 
-  <%= yield %>
+ </br> </br> </br>
+<%= yield %>
+
 
 <script id="dsq-count-scr" src="//diy-assistant.disqus.com/count.js" async></script>
 </body>
