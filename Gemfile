@@ -31,6 +31,11 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'rails_12factor'
+  gem 'rake'
+end
+
 group :test do
   gem 'database_cleaner'
   gem 'shoulda-matchers'
